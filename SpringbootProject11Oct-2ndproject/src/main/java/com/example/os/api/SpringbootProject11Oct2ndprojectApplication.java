@@ -18,5 +18,14 @@ public class SpringbootProject11Oct2ndprojectApplication {
 		
 		return "method1 result in spring boot project";
 	}
+	
+	
+	@GetMapping("/method2")
+	public String method2() {
+		
+		return "method2 result in spring boot project";
+	}
+	
+	
 
 }
